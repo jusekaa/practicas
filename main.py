@@ -3,6 +3,7 @@
 # que la función que realicen va a ejecutar cualquier operación.
 import operator
 
+
 def imprimir_tabla(tabla,operador,simbolo):
     for i in range (1,12+1):
         resultado= operador(tabla,i)
